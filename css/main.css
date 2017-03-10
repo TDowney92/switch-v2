@@ -1,19 +1,23 @@
+
+/* basic page css */
 html {
-	background: lightblue;
+	background: #ADD8E6;
 	transition: background-color 1s linear;
 	border: solid black 10px;
 	bottom: 0;
 }
 
-footer {
-	position: fixed;
-	bottom: 0;
-}
 
 footer small {
-	font-size: 30px;
-	font-style: normal;
+	position: fixed;
+	bottom: 0;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+	font-size: 35px;
 	padding: 25px;
+	color: #F7941E;
+	transition: all 1s linear;
+	text-shadow: -1px 0 black, 0 5px black, 4px 0 black, 0 -1px black;
 }
 
 .container {
@@ -28,7 +32,8 @@ h1 {
 	font-size: 110px;
 	padding: 25px;
 	color: #F7941E;
-	transition: background-color 1s linear;
+	transition: all 1s linear;
+	text-shadow: -1px 0 black, 0 5px black, 4px 0 black, 0 -1px black;
 }
 
 
@@ -41,12 +46,14 @@ h1 {
 
 #switch {
 	display: inline-block;
+	align-items: center;
 	font-size: 40px;
 	height: 1.5em;
 	width: 6.5em;
 	background: salmon;
 	border-radius: 1.2em;
-	box-shadow: 1 0.2em 0.2em rgba(0,0,0,0.4);
+	border: black 4px solid;
+	box-shadow: 0 0.2em 0.2em rgba(0,0,0,0.4);
 }
 
 #switch div {
@@ -54,6 +61,7 @@ h1 {
 	width: 1.5em;
 	border-radius: 1.2em;
 	background: darkblue;
+	border: white 2px solid;
 	box-shadow: 0 0.2em 0.2em rgba(0,0,0,0.4);
 	transition: all 3s;
 	margin-right: 50%;
@@ -67,9 +75,15 @@ html.on{
 }
 
 h1.on{
-	color: lightblue;
+	color: #ADD8E6;
 	letter-spacing: 10px;
-	transition: letter-spacing 1s linear;
+	transition: all 1s linear;
+}
+
+footer.on{
+	color: #ADD8E6;
+	letter-spacing: 10px;
+	transition: all 1s linear;
 }
 
 div.on {
