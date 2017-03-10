@@ -73,6 +73,7 @@ h1.on{
 }
 
 div.on {
-	margin-left: 100%;
+	margin-left: Calc(100% - 1.5em);
 	transition: margin 3s linear;
+
 }
