@@ -1,0 +1,79 @@
+html {
+	background: lightblue;
+	transition: background-color 1s linear;
+	border: solid black 10px;
+	bottom: 0;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+}
+
+footer small {
+	font-size: 30px;
+	font-style: normal;
+	padding: 25px;
+}
+
+.container {
+	height: 75px;
+	margin: auto;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Bangers', cursive;
+	text-align: center;
+	font-size: 110px;
+	padding: 25px;
+	color: #F7941E;
+	transition: background-color 1s linear;
+}
+
+
+/* switch css stuff */
+
+#switch input {
+	position: absolute;
+	opacity: 0;
+}
+
+#switch {
+	display: inline-block;
+	font-size: 40px;
+	height: 1.5em;
+	width: 6.5em;
+	background: salmon;
+	border-radius: 1.2em;
+	box-shadow: 1 0.2em 0.2em rgba(0,0,0,0.4);
+
+}
+
+#switch div {
+	height: 1.5em;
+	width: 1.5em;
+	border-radius: 1.2em;
+	background: darkblue;
+	box-shadow: 0 0.2em 0.2em rgba(0,0,0,0.4);
+	transition: all 3s;
+	margin-right: 50%;
+	transition: margin 1s linear;
+	box-sizing: border-box;
+}
+
+html.on{
+	background-color: #F7941E;
+	transition: background-color 1s linear;
+}
+
+h1.on{
+	color: lightblue;
+	letter-spacing: 10px;
+	transition: letter-spacing 1s linear;
+}
+
+div.on {
+	margin-left: 100%;
+	transition: margin 3s linear;
+}
